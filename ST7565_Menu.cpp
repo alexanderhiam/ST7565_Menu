@@ -1,5 +1,5 @@
 /*
- ST7565_Menu.cpp  -  Alex Hiam 
+ ST7565_Menu.cpp  -  Alex Hiam  -  rev 0.1
  Created: 11/2011
  
  A menu based user interface framework designed for the Adafruit     
