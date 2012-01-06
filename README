@@ -3,6 +3,7 @@
 | Created: 11/2011                                                       |
 |                                                                        |
 | Copyright (c) 2011,2012 - Alex Hiam - <ahiam@marlboro.edu>             |
+| http://www.alexanderhiam.com                                           |
 |                                                                        |
 | This program is free software: you can redistribute it and/or modify   |
 | it under the terms of the GNU General Public License as published by   |
@@ -24,7 +25,12 @@ below for more details.
 
 Included is a version of the Adafruit ST7565 library modified to include
 an #ifndef wrapper in the ST7565.h file. This library won't work without
-the modification.
+the modification. 
+
+To install library place the whole ST7565_Menu/ folder in your Arduino 
+libraries directory, then drag the ST7565/ folder up into the libraries
+directory as well, replacing your current Adafruit library if it exists.
+
 
 ST7565_Menu should contain:
  -ST7565_Menu.cpp
