@@ -1,0 +1,23 @@
+# Classes (KEYWORD1):
+
+ST7565	KEYWORD1
+Menu	KEYWORD1
+
+# Methods and Functions (KEYWORD2):
+
+update	KEYWORD2
+set_title	KEYWORD2
+add_item	KEYWORD2
+add_draw_function	KEYWORD2
+add_timeout_function	KEYWORD2
+draw	KEYWORD2
+clear	KEYWORD2
+scroll	KEYWORD2
+
+# Constants (LITERAL1):
+
+LEFT_MARGIN	LITERAL1
+MAX_ITEMS	LITERAL1
+MENU_VERSION	LITERAL1
+N_LINES	LITERAL1
+LABEL_LEN	LITERAL1
