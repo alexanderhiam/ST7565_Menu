@@ -25,7 +25,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 #ifndef _ST7565_H
 #define _ST7565_H
 
-#include <WProgram.h>
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h" // Arduino IDE >= v1.0
+#else
+#include "WProgram.h"
+#endif
 
 #define swap(a, b) { uint8_t t = a; a = b; b = t; }
 

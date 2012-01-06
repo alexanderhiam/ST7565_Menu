@@ -1,5 +1,5 @@
 /*
- ST7565_Menu.h  -  Alex Hiam  -  rev 0.1
+ ST7565_Menu.h  -  Alex Hiam  -  rev 0.2
  Created: 11/2011
  
  A menu based user interface framework designed for the Adafruit     
@@ -27,7 +27,11 @@
 #ifndef _ST7565_MENU_H
 #define _ST7565_MENU_H
 
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h" // Arduino IDE >= v1.0
+#else
 #include "WProgram.h"
+#endif
 #include "../ST7565/ST7565.h"  // Change accordingly
 
 //--- Configuration: ---

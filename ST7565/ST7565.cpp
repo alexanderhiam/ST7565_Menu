@@ -24,7 +24,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 //#include <Wire.h>
 #include <avr/pgmspace.h>
-#include <WProgram.h>
+//#include <WProgram.h> // Already included in header file
 #include <util/delay.h>
 #include <stdlib.h>
 
